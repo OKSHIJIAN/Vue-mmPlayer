@@ -73,11 +73,11 @@ export default {
         if (version !== null) {
           setVersion(VERSION)
           if (version !== VERSION) {
-            this.$refs.versionDialog.show()
+            //this.$refs.versionDialog.show()
           }
         } else {
           setVersion(VERSION)
-          this.$refs.versionDialog.show()
+          //this.$refs.versionDialog.show()
         }
       }.bind(this)
       loadDOM.addEventListener('animationend', animationendFunc)
